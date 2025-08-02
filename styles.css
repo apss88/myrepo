@@ -1,0 +1,60 @@
+/* Basic Reset & Body Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Sets a common sans-serif font */
+    margin: 0; /* Removes default body margin */
+    padding: 0; /* Removes default body padding */
+    line-height: 1.6; /* Sets a comfortable line height for readability */
+    color: #333; /* Default text color */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text color */
+    padding: 1em 0; /* Padding above and below the content */
+    text-align: center; /* Centers text within the header */
+}
+
+header h1 {
+    margin: 0; /* Removes default margin from the heading */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none; /* Removes bullet points from list items */
+    padding: 0; /* Removes default padding */
+    text-align: center; /* Centers navigation links */
+}
+
+nav ul li {
+    display: inline; /* Displays list items horizontally */
+    margin: 0 15px; /* Adds space between navigation links */
+}
+
+nav ul li a {
+    color: white; /* White link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underlines links on hover */
+}
+
+/* Main Content Area */
+.container {
+    max-width: 960px; /* Sets a maximum width for content */
+    margin: 20px auto; /* Centers the container and adds vertical margin */
+    padding: 20px; /* Padding inside the container */
+    background-color: white; /* White background for content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text color */
+    text-align: center; /* Centers text */
+    padding: 1em 0; /* Padding above and below */
+    margin-top: 20px; /* Adds space above the footer */
+}
